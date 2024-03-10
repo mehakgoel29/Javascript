@@ -14,8 +14,10 @@ console.log(typeof num2);
 // string manipulation 
 let a= "Hello ";
 let b= "World";
-let c= a+b;
-console.log(c);
+// let c= a+b;
+// console.log(c);
+console.log(`${a} ${b}`);
+
 
 let str2= "javascript"
 console.log(str2.length);
