@@ -15,3 +15,8 @@ let newDate= new Date(2023,0,24);  // months start from 0
 let date2= new Date("2024-01-8"); // months start from 1
 console.log(newDate.toDateString());
 console.log(date2.toLocaleString());
+
+let myTimeStamp = Date.now() // polls,quizes
+console.log(myTimeStamp);
+console.log(date2.getTime());
+
