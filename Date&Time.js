@@ -20,3 +20,16 @@ let myTimeStamp = Date.now() // polls,quizes
 console.log(myTimeStamp);
 console.log(date2.getTime());
 
+//....................................................TIME................................................................
+let created_date=new Date("2024-01-8")
+let delay= Date.now()//Generates long value from 1970
+console.log(delay);
+console.log(created_date.getDate());//get time date day month
+console.log(created_date.getDay());
+console.log(created_date.getMonth() +1);
+console.log(created_date.getTime());//Similarly returns value in long
+console.log(Math.floor(Date.now()/1000));//to convert into seconds
+created_date.toLocaleString('default',{
+    weekday: "long",
+    timeZone:'UTC'
+})
